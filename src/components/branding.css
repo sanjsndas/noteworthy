@@ -1,0 +1,19 @@
+.branding-branding {
+  gap: var(--dl-layout-space-unit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+ 
+.branding-icon1 {
+  width: 7px;
+  height: 7px;
+}
+ 
+@media(max-width: 991px) {
+  .branding-icon1 {
+    display: none;
+  }
+}
